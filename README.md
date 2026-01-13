@@ -6,3 +6,4 @@ This repository contains C programs solved using:
 
 ## Solved Problems
 - Even and Odd digits of index number
+- Sorts the array in ascending order

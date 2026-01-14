@@ -1,7 +1,7 @@
 #include<stdio.h>
 void arrFunction(int value)
 {
-    printf("%d ", arr);
+    printf("%d ", value);
 }
 int main()
 {

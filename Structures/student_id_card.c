@@ -10,7 +10,9 @@ int main()
 {
     struct studentId student1 = {"IT2024/001", "Kumari Silva", "IT", 2027};
     printf("\n------------------------\n");
-    printf("Reg No   : %s\nName     :c%s\nProgram  : %s\nValid Upto: %d\n", student1.regNo, student1.name, student1.degree, student1.year);
-    printf("------------------------\n");
+    printf("Reg No   : %s\n", student1.regNo);
+    printf("Name     : %s\n", student1.name);
+    printf("Program  : %s\n", student1.degree);
+    printf("Valid Upto: %d\n", student1.year);
     return 0;
 }

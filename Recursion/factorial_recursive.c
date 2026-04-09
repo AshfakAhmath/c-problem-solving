@@ -1,0 +1,19 @@
+#include <stdio.h>
+int fact(int n);
+
+int main()
+{
+    int num;
+    printf("Enter the number: ");
+    scanf("%d", &num);
+
+    int result = fact(num);
+    printf("%d", result);
+    return 0;
+}
+int fact(int n){
+    if(n == 0)
+        return 1;
+    else
+        return n * fact(n - 1);
+}
